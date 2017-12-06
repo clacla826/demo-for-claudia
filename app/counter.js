@@ -1,15 +1,14 @@
 import React from 'react'
 
-const Counter = ({increment, count}) => {
-
+const Counter = () => {
   return (
     <div id="container">
       <div id='navbar'>
         Counter.js
       </div>
       <div id='counter'>
-        <h1>{count}</h1>
-        <button onClick={increment}>Increment</button>
+        <h1>0</h1>
+        <button>Increment</button>
       </div>
     </div>
   )
